@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Application Scheduler</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="titleEdit">Title</string>
+    <string name="AlarmName">Alarm Name</string>
+    <string name="YourTitle">Title : </string>
+
+</resources>

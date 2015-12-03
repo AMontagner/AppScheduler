@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/titleEdit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/AlarmName" />
+
+        <EditText
+            android:id="@+id/noteEdit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:paddingTop="20dp"
+            android:inputType="textMultiLine" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="time"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:editable="false"
+            />
+
+
+        <ImageButton
+            android:layout_width="723dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/Button"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/time"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start in 5 seconds (For Demo Purposes)"
+            android:onClick="onCheckBoxClicked"
+            android:id="@+id/demo" />
+
+        <CheckBox
+            android:id="@+id/monday"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Monday"
+            android:onClick="onCheckBoxClicked"
+            />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tuesday"
+            android:id="@+id/tuesday" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wednesday"
+            android:id="@+id/wednesday" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thursday"
+            android:id="@+id/thursday" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Friday"
+            android:id="@+id/friday" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saturday"
+            android:id="@+id/saturday" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sunday"
+            android:id="@+id/sunday" />
+
+
+    </LinearLayout>
+
+</ScrollView>
